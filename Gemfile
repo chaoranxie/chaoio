@@ -16,10 +16,8 @@ end
 gem 'pg'
 
 gem 'haml'
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -30,7 +28,7 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'turbolinks'
 
 
-#COpy from
+#Copy from ruby2-rails4-bootstrap-heroku
 gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
@@ -54,7 +52,6 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
 
 group :development, :test do
   gem 'debugger'
@@ -84,3 +81,6 @@ group :test do
   gem 'simplecov', require: false
   gem 'webmock', require: false
 end
+
+gem 'newrelic_rpm'
+
